@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>New Zealand Tourism</title>
+		<meta name="description" content="">
+
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+	</head>
+	<body>
+
+		<div class="contianer" id="main">
+	<!--Begin Nav Bar-->
+    	<div class="navbar navbar-fixed-top wrap">
+				<div class="container">
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">
+						<img src="images/newZealand1.jpg" alt="New Zealand Tourism Logo">
+					</a>
+<!-- nav bar elements-->
+							<div class="nav-collapse collapse navbar-responsive-collapse">
+								<form class="navbar-form pull-right">
+									<input type="text" class="form-control" placeholder="Search your destination..." id="searchInput">
+									<button type="submit" class="btn btn-default">
+										<span class="glyphicon glyphicon-search"></span>
+									</button>
+								</form>
+								<ul class="nav navbar-nav pull-right">
+<!-- Countries Menu-->
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Country<strong class="caret"></Strong></a>
+									<ul class="dropdown-menu">
+										<li class="active">
+											<a href="#">International</a>
+										</li>
+										<li class="divider"></li>
+										<li>
+											<a href="#">Asia</a>
+										</li>
+										<li class="divider"></li>
+										<li>
+											<a href="#">North America</a>
+										</li>
+										<li class="divider"></li>
+										<li>
+											<a href="#">South America</a>
+										</li>
+										<li class="divider"></li>
+										<li>
+											<a href="#">Europe</a>
+										</li>
+										<li class="divider"></li>
+										<li>
+											<a href="#">Australia</a>
+										</li>
+										<li class="divider"></li>
+										<li>
+											<a href="#">Africa</a>
+										</li>
+									</ul>
+								</li>
+<!-- End of Countires menu-->
+								<li>
+									<a href="#myModal" data-toggle="modal">SignIn</a>
+								</li>
+								<li>
+									<a href="#myModal1" data-toggle="modal">SignUp</a>
+								</li>
+								<li>
+									<a href="#" ><span class="glyphicon glyphicon-heart"></span>WishList</a>
+								</li>
+							</ul>
+<!-- End of Top Navigation menu-->
+			</div><!--End nav bar conatiner-->
+		</div><!-- End Nav bar-->
+<!--Products Navbar-->
+				<div class="nav-collapse collapse navbar-responsive-collapse">
+					<div class="container">
+								<ul class="nav navbar-nav wrapper">
+									<li class="active">
+										<a href="" class="cols"><span class="glyphicon glyphicon-home"></a>
+									</li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Destinations<strong class="caret"></Strong></a>
+										<ul class="dropdown-menu">
+											<li class="dropdown-header">
+												<a href="#">Islands</a>
+											</li>
+											<li class="divider"></li>
+									<li>
+										<a href="#">Auckland</a>
+									</li>
+									<li class="divider"></li>
+										<li>
+											<a href="#">coromondel</a>
+										</li>
+										<li class="divider"></li>
+										<li>
+											<a href="#">Bay of Plenty</a>
+										</li>
+										<li class="divider"></li>
+										<li>
+											<a href="#">EastLand</a>
+										</li>
+										<li class="divider"></li>
+										<li>
+											<a href="#">Manawatu</a>
+										</li>
+										<li class="divider"></li>
+										<li>
+											<a href="#">Hamilton</a>
+										</li>
+									</ul>
+									<li class="dropdown">
+										<a href="" class="dropdown-toggle cols" data-toggle="dropdown">Things to do<span class="caret"></span></a>
+										<ul class="dropdown-menu">
+											<li class="dropdown-header">
+												<a href="#">Activities</a>
+											</li>
+											<li class="divider"></li>
+											<li>
+												<a href="#">Adventures</a>
+											</li>
+											<li class="divider"></li>
+											<li>
+												<a href="#">Fly Fishing</a>
+											</li>
+											<li class="divider"></li>
+											<li>
+												<a href="#">Air Activities</a>
+											</li>
+											<li class="divider"></li>
+											<li>
+												<a href="#">Cycling & Mountain biking</a>
+											</li>
+											<li class="divider">Food and Wine</li>
+											<li>
+												<a href="#">Golf</a>
+											</li>
+											<li class="divider"></li>
+											<li>
+												<a href="#">Maori Culture</a>
+											</li>
+											<li class="divider"></li>
+											<li>
+												<a href="#">Home of Middle Earth</a>
+											</li>
+											<li class="divider"></li>
+										</ul>
+									</li>
+									<li class='dropdown'>
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Facts<span class="caret"></span></a>
+										<ul class="dropdown-menu">
+											<li class="dropdown-header">
+												<a href="#">Read About</a>
+											</li>
+											<li class="divider"></li>
+											<li>
+												<a href="#">Currency</a>
+											</li>
+											<li class="divider"></li>
+											<li>
+												<a href="#">Driving in NZ</a>
+											</li>
+											<li class="divider"></li>
+											<li>
+												<a href="#">History</a>
+											</li>
+											<li class="divider"></li>
+											<li>
+												<a href="#">Seasons in NZ</a>
+											</li>
+											<li class="divider"></li>
+											<li>
+												<a href="#">Visa & Immigiration</a>
+											</li>
+											<li class="divider"></li>
+											<li>
+												<a href="#">Plants & Animals</a>
+											</li>
+											<li class="divider"></li>
+										</ul>
+									</li>
+									<li class="dropdown">
+										<a href="" class="dropdown-toggle" data-toggle="dropdown">Recommended Trips<span class="caret"></span></a>
+										<ul class="dropdown-menu">
+											<li class="dropdown-header">
+												<a href="#">Read about</a>
+											</li>
+											<li class="divider"></li>
+											<li>
+												<a href="#">3-4 days Itenary</a>
+											</li>
+											<li class="divider"></li>
+											<li>
+												<a href="#">7-8 days Itenary</a>
+											</li>
+
+											<li class="divider"></li>
+											<li>
+												<a href="#">15+ days Itenary</a>
+											</li>
+											<li class="divider"></li>
+											<li>
+												<a href="#">North Island Trips</a>
+											</li>
+											<li class="divider"></li>
+											<li>
+												<a href="#">South Island Trips</a>
+											</li>
+											<li class="divider"></li>
+										</ul>
+									</li>
+									<li class="dropdown">
+										<a href="" class="dropdown-toggle" data-toggle="dropdown">Travel to NZ<span class="caret"></span></a>
+										<ul class="dropdown-menu">
+											<li class="dropdown-header">
+												<a href="#">Read about</a>
+											</li>
+											<li class="divider"></li>
+											<li>
+												<a href="#">Cruise to New Zealand</a>
+											</li>
+											<li class="divider"></li>
+											<li>
+												<a href="#">Flights to New Zealand</a>
+											</li>
+											<li class="divider"></li>
+											<li>
+												<a href="#">Travel Agencies & Airlines</a>
+											</li>
+											<li class="divider"></li>
+											<li>
+												<a href="#">Visa & Immigiration</a>
+											</li>
+											<li class="divider"></li>
+										</ul>
+									</li>
+									<li class="dropdown">
+										<a href="" class="dropdown-toggle" data-toggle="dropdown">Transport<span class="caret"></span></a>
+										<ul class="dropdown-menu">
+											<li class="dropdown-header">
+												<a href="#">Read about</a>
+											</li>
+											<li class="divider"></li>
+											<li>
+												<a href="#">Buses & Coaches</a>
+											</li>
+											<li class="divider"></li>
+											<li>
+												<a href="#">MotorHomes</a>
+											</li>
+											<li class="divider"></li>
+											<li>
+												<a href="#">Rail Journeys</a>
+											</li>
+											<li class="divider"></li>
+											<li>
+												<a href="#">Rental Cars</a>
+											</li>
+											<li class="divider"></li>
+										</ul>
+									</li>
+									<li class="dropdown">
+										<a href="" class="dropdown-toggle" data-toggle="dropdown">Accomodation<span class="caret"></span></a>
+										<ul class="dropdown-menu">
+											<li class="dropdown-header">
+												<a href="#">Read about</a>
+											</li>
+											<li class="divider"></li>
+											<li>
+												<a href="#">Apartments</a>
+											</li>
+											<li class="divider"></li>
+											<li>
+												<a href="#">Backpackers & Hostels</a>
+											</li>
+											<li class="divider"></li>
+											<li>
+												<a href="#">Bed & Breakfast</a>
+											</li>
+											<li class="divider"></li>
+											<li>
+												<a href="#">Boutique & Lodge</a>
+											</li>
+											<li class="divider"></li>
+											<li>
+												<a href="#">FarmStays</a>
+											</li>
+											<li class="divider"></li>
+											<li>
+												<a href="#">Holiday Homes</a>
+											</li>
+											<li class="divider"></li>
+										</ul>
+									</li>
+								</ul>
+					</div>
+					</div><!--End of products Nav Bar-->
+				</div><!--End of Nav bar container-->
+				<!--Begin Modal-->
+				<div class="modal fade" id="myModal">
+					<div class="modal-dialog">
+						<div class="modal-header">
+							<button class="close" data-dismiss="modal">X</button>
+							<h4 class="modal-title">Sign In</h4>
+						</div>
+						<div class="modal-body">
+							<form class="form-horizontal">
+								<div class="form-group">
+									<label class="col-lg-2 control-label" for="inputEmail">Email Id</label>
+									<div class="col-lg-10">
+										<input class="form-control" id="inputEmail" placeholder="Email Id" type="text">
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-lg-2 control-label" for="inputName">Password</label>
+									<div class="col-lg-10">
+										<input class="form-control" id="inputName" placeholder="Password" type="text">
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="modal-footer">
+							<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Sign In</button>
+						</div>
+					</div>
+				</div><!--End of Modal-->
+				<!--Begin Modal-->
+				<div class="modal fade" id="myModal1">
+					<div class="modal-dialog">
+						<div class="modal-header">
+							<button class="close" data-dismiss="modal">X</button>
+							<h4 class="modal-title">Sign Up</h4>
+						</div>
+						<div class="modal-body">
+							<form class="form-horizontal">
+								<div class="form-group">
+									<label class="col-lg-2 control-label" for="inputEmail">Email Id</label>
+									<div class="col-lg-10">
+										<input class="form-control" id="inputEmail" placeholder="Email Id" type="text">
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-lg-2 control-label" for="inputName">Password</label>
+									<div class="col-lg-10">
+										<input class="form-control" id="inputName" placeholder="Password" type="text">
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-lg-2 control-label" for="inputName">Confirm Password</label>
+									<div class="col-lg-10">
+										<input class="form-control" id="inputName" placeholder="Password" type="text">
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="modal-footer">
+							<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Sign Up</button>
+						</div>
+					</div>
+				</div><!--End of Modal-->
+<!-- Begin Carousel-->
+				<div class="carousel slide" id="myCarousel">
+					<ol class="carousel-indicators">
+						<li class="active" data-target="#myCarousel" dat-slide-to=0></li>
+						<li data-target="#myCarousel" dat-slide-to=1></li>
+						<li data-target="#myCarousel" dat-slide-to=2></li>
+						<li data-target="#myCarousel" dat-slide-to=3></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="item active" id="slide1">
+							<div class="carousel-caption">
+								<h4>Beach</h4>
+							</div>
+						</div>
+						<div class="item" id="slide2">
+							<div class="carousel-caption ">
+								<h4>Beach</h4>
+							</div>
+						</div>
+						<div class="item" id="slide3">
+							<div class="carousel-caption ">
+								<h4>Beach</h4>
+							</div>
+						</div>
+						<div class="item" id="slide4">
+							<div class="carousel-caption">
+								<h4>Beach</h4>
+							</div>
+						</div>
+						<div class="item" id="slide5">
+							<div class="carousel-caption">
+								<h4>Beach</h4>
+							</div>
+						</div>
+						<div class="item" id="slide6">
+							<div class="carousel-caption">
+								<h4>Beach</h4>
+							</div>
+						</div>
+					</div>
+					<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+					<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+				</div><!--End Carousel-->
+			</div>
+		</div>
+<!-- content-->
+		<div class="cont container">
+			<div class="col-12">
+			<h2>Kia ora</h2>
+			<p>Welcome to travel website of New Zealand</p>
+		</div>
+	</div>
+<!--Feaures-->
+	<div class="container">
+		<div class="row" id="Features">
+<!--Begin Feature1-->
+		<div class="col-12">
+			<div class="col-4 feature">
+				<div class="panel">
+					<div class="panel-heading move">
+						<h3 class="panel-title">Wake up in paradise </h3>
+					</div>
+					<a href="#"><img class="imag" src="images/wakeUp.jpg" alt="Wake Up in NewZealand"></a>
+					<p>Our stunning landscapes and friendly locals are closer than you think.
+						Wake up in a place where something new awaits you every day</p>
+					<a href="" target="_blank" class="btn btn-warning btn-block">Know more</a>
+				</div>
+			</div><!--End of Feature 1-->
+			<!-- Begin Feature2-->
+			<div class="col-4 feature">
+				<div class="panel">
+					<div class="panel-heading move">
+						<h3 class="panel-title">Explore the Country</h3>
+					</div>
+					<a href="#"><img class="imag" src="images/explore.jpg" alt="Wake Up in NewZealand"></a>
+					<p>Explore the country's fertile heartland, showcasing lush forests, rugged mountains, and steep gorges.
+						Get off the beaten track</p>
+						<a href="" target="_blank" class="btn btn-warning btn-block">Know more</a>
+				</div>
+			</div><!--End of Feature 2-->
+			<!-- Begin Feature3-->
+			<div class="col-4 feature">
+				<div class="panel move">
+					<div class="panel-heading ">
+						<h3 class="panel-title">Our people and places </h3>
+					</div>
+					<a href="#"><img class="imag" src="images/people.jpg" alt="Wake Up in NewZealand"></a>
+					<p>Greetings to you, our visitors.
+						Wherever you travel in New Zealand, you’ll find we have rich tales to share;
+						of our history, our legends and our future</p>
+						<a href="" target="_blank" class="btn btn-warning btn-block">Know more</a>
+				</div>
+			</div>
+			</div>
+		</div><!--End of Feature 3-->
+
+		</div><!--End of Features-->
+		<!-- Begin Tabbable-->
+		<div class="container">
+		<div class="row">
+		<div class="col-12">
+		<div class="tabbable col-6">
+			<ul class="nav nav-tabs">
+				<li class="active"><a href="#tab1" data-toggle="tab">North Island</a></li>
+				<li><a href="#tab2" data-toggle="tab">South Island</a></li>
+			</ul>
+			<!-- Begin Tabbable content-->
+			<div class="tab-content">
+				<div class="tab-pane active" id="tab1">
+					<img src="images/northIsland.jpg" alt="North Island" >
+					<h4>Active volcanoes, island sanctuaries and history top the list when visiting New Zealand's North Island.</h4>
+					<p>From the far north where New Zealand's political history began, journey through landscapes that blend magnificent beaches,
+						sprawling farmlands and geothermal wonders. Maori culture is rich and ever-present in many parts of the North Island.</p>
+				</div>
+				<div class="tab-pane" id="tab2">
+					<img src="images/southIsland.jpg" alt="South Island" >
+					<h4>New Zealand's South Island hosts the purest natural landscapes you'll ever experience.</h4>
+					<p>From wildlife to wineries, from glacial valleys to star-filled skies, nature's best flourishes against a palette of dramatic scenes.</p>
+				</div>
+			</div><!--End tab Content-->
+		</div><!--End Tabbable-->
+		<!-- Begin Video -->
+		<div class="col-6">
+			<div>
+				<h3>Top 10 Attractive places in Newzealand</h3>
+			</div>
+			<div class="video">
+				<video width="500px" controls autoplay>
+				<source src="videos/Tourist.mp4" type="video/mp4" >
+				</video>
+			</div>
+		</div>--<!--End Video-->
+	</div>
+	</div>
+</div>
+		<!--Begin share-->
+		<div class="container">
+		 <div class="row">
+	 		<div class="ima col-12">
+				<p>Share this page </p>
+				<div class="mov">
+					<img src="images/faceBook.jpg" >
+					<img src="images/twitter.jpg" >
+					<img src="images/googlePlus.png" >
+					<img src="images/mail.jpg" >
+				</div>
+			</div><!-- end share-->
+		</div>
+	</div>
+</div>
+	</div>
+
+	<footer>
+		<div class="container foot">
+			<div class="col-2">
+				<ul>
+					<h5>Find us on</h5>
+					<li><a href="#">facebook</a></li>
+					<li><a href="#">twitter</a></li>
+					<li><a href="#">instagram</a></li>
+					<li><a href="#">googleplus</a></li>
+					<li><a href="#">youtube</a></li>
+				</ul>
+			</div>
+			<div class="col-2">
+				<ul>
+					<h5>Contact us</h5>
+					<li><a href="#">Request map</a></li>
+					<li><a href="#">Site Feedback</a></li>
+					<li><a href="#">Report problem</a></li>
+				</ul>
+			</div>
+			<div class="col-2">
+				<ul>
+					<h5>Help</h5>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">About us</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Terms of use</a></li>
+					<li><a href="#">Cookies</a></li>
+				</ul>
+			</div>
+			<div class="col-2">
+				<ul>
+					<h5>Our Other Sites</h5>
+					<li><a href="#">Media</a></li>
+					<li><a href="#">Visual library</a></li>
+					<li><a href="#">Travel Trade</a></li>
+					<li><a href="#">Business policy</a></li>
+					<li><a href="#">Events</a></li>
+				</ul>
+			</div>
+			<div class="col-4">
+				<img src="images/newZealand.png">
+			</div>
+		</div>
+	</footer>
+
+
+
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+
+	</body>
+</html>

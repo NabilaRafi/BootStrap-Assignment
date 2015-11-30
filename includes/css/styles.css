@@ -1,0 +1,148 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   .wrap{
+     background-color: black;
+
+   }
+   #searchInput{
+     width:200px;
+   }
+   .wrapper{
+     //padding-left:300px;
+     margin:auto;
+   }
+  .cols a{
+    color:white;
+  }
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   #myCarousel{
+     margin-top:200px;
+     width:1200px;
+      margin: 200px auto 20px;
+   }
+   #myCarousel .item{
+     height: 400px;
+   }
+   #slide1{
+     background: url("../../images/destination1.jpg") top center no-repeat;
+     width:100%;
+   }
+   #slide2{
+     background: url("../../images/destination7.jpg") top center no-repeat;
+   }
+   #slide3{
+     background: url("../../images/destination8.jpg") top center no-repeat;
+   }
+   #slide4{
+     background: url("../../images/destination4.jpg") top center no-repeat;
+   }
+   #slide5{
+     background: url("../../images/inner.jpg") top center no-repeat;
+   }
+   #slide6{
+     background: url("../../images/inner1.jpg") top center no-repeat;
+   }
+   .cont{
+     text-align: center;
+   }
+   .cont p{
+     font-size: 24px;
+     word-spacing: 3px;
+     letter-spacing: 1px;
+   }
+   .imag{
+     width:325px;
+     height:300px;
+     margin-top:10px;
+     margin-bottom:10px;
+   }
+   .move h3{
+     text-align: center
+   }
+   .ima img{
+     width:50px;
+     height:50px;
+   }
+   .ima p{
+     font-size: 22px;
+     padding-left:550px;
+   }
+   .ima{
+     margin-top: 10px;
+   }
+   .mov{
+     padding-left:525px;
+   }
+
+   .foot{
+     background: black;
+     width:100%;
+   }
+   .foot h5{
+     color: white;
+   }
+   #myModal, #myModal1{
+     background: white;
+   }
+
+   #tab2 p, #tab2 h4, #tab2 img,#tab1 p, #tab1 h4, #tab1 img{
+     margin-top:20px;
+     //margin-bottom:10px;
+   }
+   footer{
+     background: black;
+   }
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+   body{
+     overflow: hidden-print;
+   }
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
