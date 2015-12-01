@@ -39,14 +39,13 @@ Notes:	 Hand coded for Udemy.com
   .cols a{
     color:white;
   }
-
 /* --------------------------------------
    Carousel
    -------------------------------------- */
    #myCarousel{
-     margin-top:200px;
-     width:1200px;
-      margin: 200px auto 20px;
+     margin-top:150px;
+      width:1200px;
+      margin: 150px auto 20px;
    }
    #myCarousel .item{
      height: 400px;
@@ -70,6 +69,10 @@ Notes:	 Hand coded for Udemy.com
    #slide6{
      background: url("../../images/inner1.jpg") top center no-repeat;
    }
+   .item h1{
+     color:black;
+     font-style: oblique;
+   }
    .cont{
      text-align: center;
    }
@@ -79,10 +82,11 @@ Notes:	 Hand coded for Udemy.com
      letter-spacing: 1px;
    }
    .imag{
-     width:325px;
+     //width:325px;
      height:300px;
      margin-top:10px;
      margin-bottom:10px;
+     width:100%
    }
    .move h3{
      text-align: center
@@ -90,6 +94,10 @@ Notes:	 Hand coded for Udemy.com
    .ima img{
      width:50px;
      height:50px;
+     //width:100%;
+   }
+   .chan video{
+     width:100%;
    }
    .ima p{
      font-size: 22px;
@@ -123,10 +131,19 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
+   .panel-heading{
+     background: black;
+   }
+   .panel-title{
+     color:white;
+   }
    body{
-     overflow: hidden-print;
+     background: yellowgreen;
    }
 
+   .panel{
+     background: yellowgreen;
+   }
 
 /* --------------------------------------
    Media Queries
@@ -134,15 +151,146 @@ Notes:	 Hand coded for Udemy.com
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
+  .imag,.ims img,{
+    width:100%;
+  }
+  .navbar-nav li a{
+    padding:2px;
+  }
+
+  .mov,.ima p{
+    padding-left: 0px;
+  }
+
+  #myCarousel{
+    margin-top:100px;
+     width:100%;
+     margin: 80px auto 20px;
+     height:auto;
+  }
+  #myCarousel .item{
+    height: 160px;
+  }
+  #slide1{
+    background: url("../../images/destination1_sm.jpg") top center no-repeat;
+  }
+  #slide2{
+    background: url("../../images/destination7_sm.jpg") top center no-repeat;
+  }
+  #slide3{
+    background: url("../../images/destination8_sm.jpg") top center no-repeat;
+  }
+  #slide4{
+    background: url("../../images/destination4_sm.jpg") top center no-repeat;
+  }
+  #slide5{
+    background: url("../../images/inner_sm.jpg") top center no-repeat;
+  }
+  #slide6{
+    background: url("../../images/inner1_sm.jpg") top center no-repeat;
+  }
+
+  #tab1 img{
+    width:200px;
+  }
+
+.dropdown-menu .divider{
+  margin:0px;
+  height:0px;
+}
+
 
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
+  .imag,.ims img{
+    width:100%;
+  }
+  .navbar-nav li a{
+    padding:1px;
+  }
+  .dropdown-menu .divider{
+    margin:0px;
+    height:0px;
+  }
+
+
+
+  .mov,.ima p{
+    padding-left: 125px;
+  }
+
+  #tab1 img, #tab2 img{
+    width:250px;
+  }
+
+  #myCarousel{
+    margin-top:100px;
+     width:100%;
+     margin: 100px auto 20px;
+  }
+  #myCarousel .item{
+    height: 260px;
+  }
+
+  #slide1{
+    background: url("../../images/destination1_md.jpg") top center no-repeat;
+    height:100%;
+  }
+  #slide2{
+    background: url("../../images/destination7_md.jpg") top center no-repeat;
+  }
+  #slide3{
+    background: url("../../images/destination8_md.jpg") top center no-repeat;
+  }
+  #slide4{
+    background: url("../../images/destination4_md.jpg") top center no-repeat;
+  }
+  #slide5{
+    background: url("../../images/inner_md.jpg") top center no-repeat;
+  }
+  #slide6{
+    background: url("../../images/inner1_md.jpg") top center no-repeat;
+  }
+  footer img{
+    width:100%;
+  }
+}
+
+/* Devices less than 1200px*/
+@media (max-width: 1216px) {
+  #tab1 img, #tab2 img{
+    width:350px;
+  }
+  footer img{
+    width:100%;
+  }
+
+  .chan video{
+    width:100%;
+  }
+  #myCarousel{
+    margin-top:100px;
+     width:100%;
+     margin: 100px auto 20px;
+  }
+  #myCarousel .item{
+    height: 260px;
+  }
+  .imag,.ims img{
+    width:100%;
+  }
+
 
 }
 
 /* Large desktop */
 @media (min-width: 1200px) {
-
+  .imag,.ims img{
+    width:100%;
+  }
+  footer img{
+    width:100%;
+  }
 }
