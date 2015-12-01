@@ -137,12 +137,18 @@ Notes:	 Hand coded for Udemy.com
    .panel-title{
      color:white;
    }
-   body{
-     background: yellowgreen;
+   .feat{
+     margin-top:130px;
    }
+   #Features{
+     margin-bottom:30px;
+   }
+   /*body{
+     background: yellowgreen;
+   }*/
 
    .panel{
-     background: yellowgreen;
+     background: lightgrey;
    }
 
 /* --------------------------------------
@@ -199,6 +205,9 @@ Notes:	 Hand coded for Udemy.com
   height:0px;
 }
 
+.feat{
+  margin-top:-50px;
+}
 
 }
 
@@ -215,7 +224,12 @@ Notes:	 Hand coded for Udemy.com
     height:0px;
   }
 
-
+  .feat{
+    margin-top:130px;
+  }
+  #Features{
+    margin-bottom:30px;
+  }
 
   .mov,.ima p{
     padding-left: 125px;
@@ -281,7 +295,12 @@ Notes:	 Hand coded for Udemy.com
   .imag,.ims img{
     width:100%;
   }
-
+  .feat{
+    margin-top:230px;
+  }
+  #Features{
+    margin-bottom:30px;
+  }
 
 }
 
