@@ -116,11 +116,25 @@ Notes:	 Hand coded for Udemy.com
    }
    .foot h5{
      color: white;
+     font-family: cursive;
    }
-   #myModal, #myModal1{
-     background: white;
+   .foot li a{
+     //color:grey;
+     font-family: cursive;
    }
+   /*#myModal, #myModal1, #myModal_feat{
+     background-color: black;
+   }*/
 
+   .modal-dialog{
+     background: white;
+     margin-top: 150px;
+     padding: 0px;
+   }
+   .modal-body img{
+     width:100%;
+     height:100%;
+   }
    #tab2 p, #tab2 h4, #tab2 img,#tab1 p, #tab1 h4, #tab1 img{
      margin-top:20px;
      //margin-bottom:10px;
