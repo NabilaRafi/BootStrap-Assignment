@@ -306,9 +306,16 @@ Notes:	 Hand coded for Udemy.com
 
 /* Large desktop */
 @media (min-width: 1200px) {
-  .imag,.ims img{
+  .imag{
     width:100%;
   }
+  #myCarousel{
+    margin-top:200px;
+  }
+  .feat{
+    margin-top:200px;
+  }
+
   footer img{
     width:100%;
   }
