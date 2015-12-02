@@ -50,7 +50,7 @@ Notes:	 Hand coded for Udemy.com
    #myCarousel .item{
      height: 400px;
    }
-   #slide1{
+   /*#slide1{
      background: url("../../images/destination1.jpg") top center no-repeat;
      width:100%;
    }
@@ -68,7 +68,7 @@ Notes:	 Hand coded for Udemy.com
    }
    #slide6{
      background: url("../../images/inner1.jpg") top center no-repeat;
-   }
+   }*/
    .item h1{
      color:black;
      font-style: oblique;
@@ -177,8 +177,9 @@ Notes:	 Hand coded for Udemy.com
   #myCarousel .item{
     height: 160px;
   }
-  #slide1{
+  /*#slide1{
     background: url("../../images/destination1_sm.jpg") top center no-repeat;
+    width:auto;
   }
   #slide2{
     background: url("../../images/destination7_sm.jpg") top center no-repeat;
@@ -194,7 +195,7 @@ Notes:	 Hand coded for Udemy.com
   }
   #slide6{
     background: url("../../images/inner1_sm.jpg") top center no-repeat;
-  }
+  }*/
 
   #tab1 img{
     width:200px;
@@ -244,11 +245,15 @@ Notes:	 Hand coded for Udemy.com
      width:100%;
      margin: 100px auto 20px;
   }
-  #myCarousel .item{
-    height: 260px;
+  #myCarousel.item{
+    height:400px;
   }
 
-  #slide1{
+  #slide1 img,#slide2 img,#slide3 img,#slide4 img,#slide5 img,#slide6 img{
+    height: 400px;
+  }
+
+  /*#slide1{
     background: url("../../images/destination1_md.jpg") top center no-repeat;
     height:100%;
   }
@@ -266,15 +271,32 @@ Notes:	 Hand coded for Udemy.com
   }
   #slide6{
     background: url("../../images/inner1_md.jpg") top center no-repeat;
-  }
+  }*/
   footer img{
     width:100%;
   }
 }
 
+@media (min-width:780px){
+  #myCarousel{
+    margin: 400px auto 20px;
+    width:100%;
+  }
+  .navbar-nav li a{
+    padding:5px;
+  }
+}
+/*@media (max-width:1000px){
+  #myCarousel{
+    margin: 400px auto 20px;
+    width:100%;
+  }
+}*/
+
 /* Devices less than 1200px*/
 @media (max-width: 1216px) {
   #tab1 img, #tab2 img{
+    width:100%;
     width:350px;
   }
   footer img{
@@ -285,12 +307,15 @@ Notes:	 Hand coded for Udemy.com
     width:100%;
   }
   #myCarousel{
-    margin-top:100px;
+    margin-top:300px;
      width:100%;
-     margin: 100px auto 20px;
+     margin: 150px auto 20px;
   }
   #myCarousel .item{
     height: 260px;
+  }
+  .navbar-nav li a{
+    padding:6px;
   }
   .imag,.ims img{
     width:100%;
