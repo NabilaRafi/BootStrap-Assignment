@@ -143,12 +143,20 @@ Notes:	 Hand coded for Udemy.com
    #Features{
      margin-bottom:30px;
    }
-   /*body{
-     background: yellowgreen;
-   }*/
+   .dropdown-menu{
+     background: black;
+   }
+   .dropdown-menu li a{
+     color:white;
+     text-align: center;
+   }
 
-   .panel{
-     background: lightgrey;
+   .nav li a{
+     color:white;
+   }
+
+   .tabs li a {
+     color: black;
    }
 
 /* --------------------------------------
@@ -198,6 +206,9 @@ Notes:	 Hand coded for Udemy.com
   }*/
 
   #tab1 img{
+    width:200px;
+  }
+  #tab2 img{
     width:200px;
   }
 
@@ -343,5 +354,8 @@ Notes:	 Hand coded for Udemy.com
 
   footer img{
     width:100%;
+  }
+  .navbar-nav li a{
+    padding:12px;
   }
 }
